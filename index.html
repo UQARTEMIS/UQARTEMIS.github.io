@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ARTEMIS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/myjs.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+						<h1 style="font-size:28px">ARTEMIS<em> by Domenico Poutanen</em></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#artemis">About</a></li>
+								<li><a href="#over-view">Project Overview</a></li>
+								<li><a href="#out-comes">Outcomes</a></li>
+								<li><a href="#report">Report</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2>ARTEMIS: <em>A table that turns your drawings into music</h2>
+						<a href="#artemis" class="button">Learn More</a>
+					</header>
+				</section>
+
+				<!-- Highlights -->
+					<section class="wrapper style1">
+						<div class="container">
+							<div class="row 200%">
+								<section class="4u 12u(narrower)">
+									<div class="box highlight">
+										<i class="icon major fa-pencil"></i>
+										<h3>Unique Interactions</h3>
+									</div>
+								</section>
+								<section class="4u 12u(narrower)">
+									<div class="box highlight">
+										<i class="icon major fa-pencil"></i>
+										<h3>Easy to Compose Music</h3>
+									</div>
+								</section>
+								<section class="4u 12u(narrower)">
+									<div class="box highlight">
+										<i class="icon major fa-pencil"></i>
+										<h3>Fun and Playful</h3>
+									</div>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- ABOUT ARTEMIS-->
+				<section class="wrapper style1">
+					<div id="artemis" class="container">
+						<div id="content">
+
+							<!-- Content -->
+							<div class="row 200%">
+									<section class="6u 12u(narrower)">
+										<header>
+											<h2>What is ARTEMIS?</h2>
+										</header>
+										<p>Augmented Reality Teaching Everyone Music in Society (ARTEMIS) is the table that turns you
+											drawings into music. The aim of this project is to allow users to collaborate and compose
+											music in conjunction with interactive technology. This is achieved by it's unique circular
+											design, as it encourages peformers to collaborate.
+										</p>
+									</section>
+									<section class="6u 12u(narrower)">
+										<img style="width:100%" src="images/artemis4.jpg" alt="ARTEMIS prior design">
+									</section>
+							</div>
+							<div class="row 200%">
+									<section class="6u 12u(narrower)">
+										<img style="width:100%" src="images/artemis3.jpg" alt="ARTEMIS prior design">
+									</section>
+									<section class="6u 12u(narrower)">
+									<header>
+										<h2>How does it work?</h2>
+									</header>
+									<p>ARTEMIS captures the users drawings by the webcam thats suspeded over the whiteboard. This
+										then sends an image for each degree of the circle (using polar co-ordinates), to then detect each
+										pixles colour. If a colour is detected an instrument plays. Where red, blue and green have seperate
+										instruments assigned to them. This also sends a signal on what LED should emit the colour detected,
+										where the position of where ARTEMIS is reading would determin which LED would turned on.
+									</p>
+									</br>
+									<p>
+										The pitch
+										is determined on the colour being detected position on the circle. Where the closer the colour is to
+										the centre of the circle the higher the pitch, and the closer it is to the edge of the circle gives a
+										low note.
+									</p>
+									</br>
+									<p>ARTEMIS is also equiped with a debug window that allows the user to control the status of ARTEMIS.
+										Where it includes the ability to reset the ARTEMIS Program, or even pause. The debug window also shows
+										the user where ARTEMIS is currently reading, while showing you important variables that can be changed.
+										This includes the circle radius and position on the camera feed.
+									</p>
+									</section>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<!--COURSE OVER VIEW-->
+				<section id="over-view" class="wrapper style1">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+
+								<article>
+									<header>
+										<h2>Project Overview</h2>
+									</header>
+									<p>DECO300 Interactive Experience Design - music collaboration is a special topic course provided
+										by Stephen Viller of The University of Queensland, which follows from DECO3850 Physical Computing
+										and Interaction Design. This course enables students to design what was known to be future iterations
+										of their musical projects created from DECO3850. The aim of the course is to collaborate with the School
+										of Music to iterate on the project. In which that it meets the standards of musicians with a variety of
+										expertise. Where within the course a/multiple musician will have to perform in front of a live audience.
+										Within Physical Computing ARTEMIS was created with the inspiration of new interfaces for music expression
+										with a focus on music collaboration. ARTEMIS also takes inspiration from projects such as
+										<a href="http://reactable.com/">ReactAble</a>,
+										<a href="https://www.youtube.com/watch?v=C6V4yN6zYjc">TuneTrace</a> and
+										<a href="http://seaquence.org/">Seaquence</a>
+
+									</p>
+								</article>
+
+						</div>
+					</div>
+				</section>
+
+
+
+
+			<!-- Posts -->
+				<section id="out-comes" class="wrapper style1">
+					<div class="container">
+						<header>
+							<h2>Project Outcomes</h2>
+						</header>
+						<div class="row">
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a target="_blank" href="files/ArtemisProposal.pdf" class="image left"><img src="images/documentIcon.png" alt="" /></a>
+									<div class="inner">
+										<h3>Proposal</h3>
+										<p>To initalize the process of implementing new features into ARTEMIS. A proposal was created to make sure that deadlines are met and development stays consistant throughout the semester.</p>
+									</div>
+								</div>
+							</section>
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a target="_blank" href="files/ARTEMISPoster.pdf" class="image left"><img src="images/imageIcon.png" alt="" /></a>
+									<div class="inner">
+										<h3>Poster</h3>
+										<p>ARTEMIS was invited to the Univerity of Queenslands Inovation Showcase (2017) to be displayed with a plethora of inovative projects from talented students</p>
+									</div>
+								</div>
+							</section>
+						</div>
+
+						<header>
+							<h2>Previous Outcomes</h2>
+						</header>
+						<div class="row">
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a target="_blank" href="files/reflectiveReport.pdf" class="image left"><img src="images/documentIcon.png" alt="" /></a>
+									<div class="inner">
+										<h3>Reflective Report</h3>
+										<p>During the semester within DECO3850 we were task to create a report that reflected on our chossen domain
+											(ARTEMIS is Music Expression). This produced the report that reflected on emotional expression through
+											collaborative performative installations</p>
+									</div>
+								</div>
+							</section>
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a target="_blank" href="https://www.youtube.com/watch?time_continue=68&v=c6_f4pSCMxw" class="image left"><img src="images/videoIcon.png" alt="" /></a>
+									<div class="inner">
+										<h3>KickStarter Video</h3>
+										<p>The overall deadline for ARTEMIS was to produce a working prototype, to exhibit in public. This included
+											a kickstarter video that would explain ARTEMIS conceptivly and physicaly</p>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</section>
+
+				<!-- Gigantic Heading -->
+					<section id="report" class="wrapper style2">
+						<div class="container">
+							<header class="major">
+								<h2>ARTEMIS: The Process of Designing an Alternative Instrument DECO3000 Report</h2>
+								<a target="_blank" href="files/DECO3000.pdf" class="button">View</a>
+							</header>
+						</div>
+					</section>
+
+			<!-- Footer -->
+				<div id="footer">
+
+					<!-- Icons -->
+						<ul class="icons">
+							<li><a target="_blank" href="https://github.com/DomenicoPou" class="icon fa-github"><span class="label">GitHub</span></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/domenico-poutanen-9a909a13b/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>Images taken from: <a target="_blank" href="https://www.facebook.com/pg/UQEngTech/photos/?tab=album&album_id=1425743014148041">UQ Engineering and Technology Inovation Show Case Album</a> and provided by <a target="_blank" href="http://ixd.uqcloud.net/bio/stephen-viller/">Stephen Viller of University Queensland</a></li><li>Content by Domenico Poutanen</li><li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><div>Icons made by
+									<a target="_blank" href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a target="_blank" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+							</ul>
+						</div>
+				</div>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
